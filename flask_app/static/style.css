@@ -1,0 +1,78 @@
+
+.main_container{
+    background-color: #E07A5F;
+    height: 1400px;
+}
+.header{
+    color: #f7c26d;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 300;
+    font-size: 100px;
+    margin-bottom: 100px;
+}
+.register{
+    background-color: #023047;
+    padding: 20px;
+    width: 400px;
+    margin: 20px;
+}
+#text{
+    width: 360px;
+    border-color: #023047;
+    background-color: #F4F1DE;
+}
+h1, h4{
+    color: #F2CC8F;
+    font-weight: 300;
+}
+p{
+    color: #F2CC8F;  
+    font-size: 20px;
+    font-weight: 300;
+}
+#btn{
+    background-color: #81B29A;
+    border-color: #81B29A;
+    color: #325443;
+    margin-bottom: 20px;
+}
+
+.welcome_container{
+    background-color: #023047;
+    height: 1400px;
+    width: auto;
+}
+.my_bands_container{
+    background-color: #023047;
+    height: 1400px;   
+}
+.edit_container{
+    background-color: #E07A5F;
+    height: 1400px;
+    padding-top: 50px;
+}
+.edit{
+    background-color: #023047;
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 5%;
+}
+.welcome{
+    padding-top: 40px;
+}
+.links{
+    text-decoration: none;
+    color: #F2CC8F;
+}
+.table{
+    width: 1600px;
+    margin: 0 auto;
+    color: #81B29A;
+}
+th, td{
+    color: #F2CC8F;
+    font-weight: 300;
+}
