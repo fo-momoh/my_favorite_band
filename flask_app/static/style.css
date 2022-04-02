@@ -76,3 +76,7 @@ th, td{
     color: #F2CC8F;
     font-weight: 300;
 }
+
+small{
+    color: whitesmoke;
+}

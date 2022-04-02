@@ -1,3 +1,4 @@
+from unicodedata import category
 from flask_app.config.mysqlconnection import connectToMySQL
 from flask_app import app
 from flask_app.models import band
@@ -83,27 +84,27 @@ class User:
     def registry_validator(data):
         is_valid = True
         if len(data["first_name"]) <= 1:
-            flash("Please insert your First Name., 'fname'")
+            flash("Please insert your First Name.", "fname")
             is_valid = False
         if len(data["last_name"]) <= 1:
-            flash("Please insert your Last Name., 'lname'")
+            flash("Please insert your Last Name.",'lname')
             is_valid = False
         user = User.get_by_email(data)
         if user:
-            flash("Email is already in use., 'email'")
+            flash("Email is already in use.", 'email')
             is_valid = False
         if len(data["email"]) <= 1:
-            flash("Please insert your Email., 'email'")
+            flash("Please insert your Email.", 'email')
             is_valid = False
         EMAIL_REGEX = re.compile(
             r'^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]+$')
         if not EMAIL_REGEX.match(data['email']):
-            flash("Invalid email address!, 'iemail'")
+            flash("Invalid email address!", 'email')
             is_valid = False
         if len(data["password"]) <= 5:
-            flash("Password must be 5 characters or more., 'password'")
+            flash("Password must be 5 characters or more.", 'password')
             is_valid = False
         if data["password"] != data["confirm_password"]:
-            flash("Your password must match, 'cpassword'")
+            flash("Your password must match.", 'cpassword')
             is_valid = False
         return is_valid

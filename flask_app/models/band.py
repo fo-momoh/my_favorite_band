@@ -75,12 +75,12 @@ class Band:
     def band_validator(data):
         is_valid = True
         if len(data["band_name"]) <= 3:
-            flash("Name must be at least 3 characters")
+            flash("Name must be at least 3 characters", 'bname')
             is_valid = False
         if len(data["music_genre"]) <= 3:
-            flash("Music Genre must be at least 3 characters")
+            flash("Music Genre must be at least 3 characters", 'mgenre')
             is_valid = False
         if len(data["home_city"]) <= 3:
-            flash("Home City must be at least 3 characters")
+            flash("Home City must be at least 3 characters", 'hcity')
             is_valid = False
         return is_valid
