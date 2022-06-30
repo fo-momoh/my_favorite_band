@@ -1,8 +1,8 @@
 # MUSICON
 
-This project allows the user to store in a personal profile favorite bands, it is a Full CRUD app. 
-It also has LOGIN and REGISTRATION with REGEX hashing the users passwords.
-You can create, save, edit and delete Bands.
+<p>This project allows the user to store in a personal profile favorite bands, it is a Full CRUD app.</p>
+<p>It also has LOGIN and REGISTRATION with REGEX hashing the users passwords.</p>
+<p>You can create, save, edit and delete Bands.</p>
 
 ## Features
 
