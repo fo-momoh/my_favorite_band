@@ -4,7 +4,7 @@
 <p>It also has LOGIN and REGISTRATION with REGEX hashing the users passwords.</p>
 <p>You can create, save, edit and delete Bands.</p>
 
-## Features
+## Demo
 
 ![musicon](https://user-images.githubusercontent.com/98990358/176763848-4567bb8e-31eb-4f3b-b248-c6a6cb7427d2.gif)
 
